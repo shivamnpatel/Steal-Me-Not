@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUs"
+    android:background="@drawable/color">
+
+    <TextView
+        android:id="@+id/textview22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="ABOUT US"
+        android:textSize="30sp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tvAboutUs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="25sp"
+        android:layout_marginTop="200dp"
+        />
+
+</RelativeLayout>

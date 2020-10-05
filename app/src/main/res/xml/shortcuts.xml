@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+
+        android:enabled="true"
+        android:shortcutId="chargeid"
+        android:icon="@drawable/ic_battery_charging_80_black_24dp"
+        android:shortcutShortLabel="@string/shortcut_short_label"
+        android:shortcutLongLabel="@string/shortcut_long_label">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.project.stealmenot"
+            android:targetClass="com.project.stealmenot.ProtectionModesActivity" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+
+    </shortcut>
+</Shortcuts>

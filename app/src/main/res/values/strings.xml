@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Steal Me Not</string>
+    <!--<string name="open">Open</string>
+    <string name="close">Close</string>-->
+    <string name="shortcut_long_label">Charging Detection</string>
+    <!-- Short label should be <= 10 characters-->
+    <string name="shortcut_short_label">Charging</string>
+    <string name="id">charge</string>
+    <string name="title_activity_gpslocation">Map</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Steal Me Not</string>
+    <string name="nav_header_subtitle">Stealmenot@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_emergencyContacts">Emergency Contacts</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_info">About Us</string>
+    <string name="open_drawer">open</string>
+    <string name="close_drawer">close</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_lost_device">Lost Device? Click here</string>
+    <string name="menu_communicate">Communicate</string>
+
+
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu tools:showIn="navigation_view"
+	xmlns:tools="http://schemas.android.com/tools"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+	
+    <group android:checkableBehavior="single">
+    <item android:title="@string/menu_home" 
+	android:icon="@drawable/ic_home_black_24dp" 
+	android:id="@+id/nav_home"/>
+    <item android:title="@string/menu_profile"
+	android:icon="@drawable/ic_person_black_24dp" 
+	android:id="@+id/nav_profile"/>
+    <item android:title="@string/menu_emergencyContacts"
+	android:icon="@drawable/ic_contacts_black_24dp" 
+	android:id="@+id/nav_emergencyContacts"/>
+    <item android:title="@string/menu_settings" 
+	android:icon="@drawable/ic_settings_black_24dp"
+	android:id="@+id/nav_tools" />
+    <item android:title="@string/menu_logout"
+	android:icon="@drawable/ic_logout_24dp"
+	android:id="@+id/nav_logout"/>
+	<item android:id="@+id/postProtection"
+	android:title="@string/menu_lost_device"
+	android:icon="@drawable/ic_phone_android_black_24dp">
+	</item>
+</group>
+
+    <item android:title="@string/menu_communicate">
+    <menu>
+    <item android:title="@string/menu_info"
+	android:icon="@drawable/ic_info_black_24dp" 
+	android:id="@+id/nav_info"/>
+    <item android:title="@string/menu_share" 
+	android:id="@+id/nav_share"
+	android:icon="@drawable/ic_share_black_24dp"/>
+	</menu>
+
+	</item>
+	<item android:title="Device Admin Permissions">
+		<menu>
+			<item android:title="Enable"
+				android:icon="@drawable/ic_perm_device_information_black_24dp"
+				android:id="@+id/nav_deviceAdminEnable"/>
+			<item android:title="Disable"
+				android:icon="@drawable/ic_perm_device_information_black_24dp"
+				android:id="@+id/nav_deviceAdminDisable"
+				/>
+		</menu>
+
+	</item>
+
+</menu>

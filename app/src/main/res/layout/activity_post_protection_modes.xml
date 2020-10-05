@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    tools:context=".PostProtectionModes"
+    android:background="@drawable/color">
+
+    <TextView
+        android:id="@+id/tvMainAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Post Protection Modes"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="30sp"
+        android:padding="20dp"/>
+
+    <LinearLayout
+        android:layout_width="359dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnGPSLocation"
+            android:layout_width="268dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/circular"
+            android:gravity="center"
+            android:onClick="getLocation"
+            android:text="Get Location"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="30sp" />
+
+
+        <Button
+            android:id="@+id/btnFormat"
+            android:layout_width="268dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/circular"
+            android:onClick="btnFormatDevice"
+            android:text="Format Device"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnSimDetect"
+            android:layout_width="268dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/circular"
+            android:onClick="btnSimDetect"
+            android:text=" New Sim Detect"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/btnDataGPS"
+            android:layout_width="268dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/circular"
+            android:onClick="lockDevice"
+            android:text="Lock device"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
